@@ -10,9 +10,10 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     multiplier (float): The multiplier to use.
 
     Returns:
-    Callable[[float], float]: A function that takes a float and returns a float.
+    Callable[[float], float]: A function that takes
+    a float and returns a float.
     """
     def multiplier_function(value: float) -> float:
         return value * multiplier
-    
+
     return multiplier_function
