@@ -13,5 +13,6 @@ def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> Tuple[int, ...]:
     Returns:
     - Tuple[int, ...]: The zoomed-in tuple.
     """
-    zoomed_in: Tuple[int, ...] = tuple(item for item in lst for i in range(factor))
+    zoomed_in: Tuple[int, ...] = tuple(item for item in lst
+                                       for i in range(factor))
     return zoomed_in

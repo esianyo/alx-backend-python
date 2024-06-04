@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-This module contains a function that concatenates two strings with type annotations.
+This module contains a function that concatenates
+two strings with type annotations.
 """
 
 
